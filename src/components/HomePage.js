@@ -1,12 +1,12 @@
 import React from "react";
 import SocialsMapped from "./HomePageSocialsMap";
 import socialsData from "./socialsData";
-import '../styles/Socials.css'
+import '../styles/Home.css'
 
 function HomePage() {
     return(
         <div>
-            <h1>Personal Portfolio for Sathvik Andhavarapu</h1>
+            <h1 id="name">Sathvik Andhavarapu</h1>
             <SocialsMapped socials={socialsData}/>
         </div>
     );

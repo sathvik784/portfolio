@@ -1,14 +1,16 @@
 import React from "react";
+import '../styles/EducationTimeline.css'
 
 const EducationCard = ({educationData}) => {
     return(
-        <div>
-            <h1>{educationData.School}</h1>
-            <h2>Attended {educationData.Timeline}</h2>
-            <h2>GPA: {educationData.GPA}</h2>
+        <div className="educationCard">
+            <h1 id="title">{educationData.School}</h1>
+            <h2 id="time">Attended {educationData.Timeline}</h2>
+            <h2 id="gpa">GPA: {educationData.GPA}</h2>
 
-            <p>{educationData.activities}</p>
+            <p id="description">{educationData.activities}</p>
             
+            <span className="circle"> </span>
         </div>
     );
 }

@@ -3,9 +3,9 @@ import '../styles/ProjectCard.css'
 
 const SideProjectCard = ({projectData}) => {
     return(
-        <div>
+        <div className="projectCards">
             <h1>{projectData.Name}</h1>
-            <p>{projectData.Description}</p>
+            <h2>{projectData.Description}</h2>
             <a href={projectData.GitHubLink}>
                 <button>GitHub</button>
             </a>

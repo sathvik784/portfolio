@@ -3,7 +3,12 @@ const projectData = [
         "id": 1,
         "Name": "Personal Portfolio",
         "Description": "Placeholder",
-        "ProjectLink": "not there?",
+        "GitHubLink": "https://github.com/sathvik784/portfolio"
+    },
+    {
+        "id": 2,
+        "Name": "To Do List Website",
+        "Description": "This website provides a to do list for users.",
         "GitHubLink": "https://github.com/sathvik784/portfolio"
     }
 ]
