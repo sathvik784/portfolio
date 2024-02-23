@@ -1,8 +1,13 @@
 import React from "react";
+import selfImage from  '../images/self.png';
+import '../styles/About.css'
 
 function About() {
     return(
-        <h1>About</h1>
+        <div>
+            <h1>About</h1>
+            <img id="imageOfSelf" src={selfImage} alt="selfImage not working"/>
+        </div>
     );
 }
 

@@ -7,7 +7,9 @@ function HomePage() {
     return(
         <div>
             <h1 id="name">Sathvik Andhavarapu</h1>
-            <SocialsMapped socials={socialsData}/>
+            <div className="socialsContainer">
+                <SocialsMapped socials={socialsData}/>
+            </div>
         </div>
     );
 }

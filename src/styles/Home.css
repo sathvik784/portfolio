@@ -2,13 +2,13 @@
   font-size: 50px;
   font: bold;
   padding: 5px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-#mediaType {
-    text-align: center;
-    padding: 10px;
-    margin: 15px;
+.socialsContainer {
+  display: flex;
+  justify-content: center;
 }
   
 button {
@@ -26,6 +26,6 @@ button {
   margin: 5px;
 }
   
-  button:hover {
-    background-color: pink;
-  }
+button:hover {
+  background-color: pink;
+}

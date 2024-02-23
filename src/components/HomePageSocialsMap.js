@@ -1,5 +1,6 @@
 import React from "react";
 import Socials from "./HomePageSocials";
+import '../styles/Home.css'
 
 const SocialsMapped = ({socials}) => {
     return(
