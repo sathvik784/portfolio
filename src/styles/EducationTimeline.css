@@ -32,7 +32,7 @@
     align-self: flex-end;
     justify-content: flex-start;
     margin-right: 300px;
-    padding-left: 30px;
+    padding-left: 10px;
     padding-right: 0px;
 }
 
@@ -40,7 +40,7 @@
     align-self: flex-start;
     justify-content: flex-start;
     margin-left: 300px;
-    padding-left: 30px;
+    padding-left: 10px;
     padding-right: 0px;
 }
 
@@ -59,7 +59,7 @@
 }
 
 #title {
-    font-size: 15px;
+    font-size: 20px;
     font: bold;
     padding: 5px;
     text-transform: uppercase;
@@ -72,7 +72,7 @@
 }
 
 #time {
-    font-size: 13px;
+    font-size: 17px;
     font: bold;
     padding: 5px;
     text-align: right;
@@ -84,7 +84,7 @@
 }
 
 #gpa {
-    font-size: 13px;
+    font-size: 17px;
     font: bold;
     padding: 5px;
     text-align: right;
@@ -96,7 +96,8 @@
 }
 
 #description {
-    font-size: 12px;
+    font-size: 16px;
+    font: normal;
     text-align: right;
     margin-right: 15px;
 }

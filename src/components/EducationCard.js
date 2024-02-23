@@ -7,8 +7,7 @@ const EducationCard = ({educationData}) => {
             <h1 id="title">{educationData.School}</h1>
             <h2 id="time">Attended {educationData.Timeline}</h2>
             <h2 id="gpa">GPA: {educationData.GPA}</h2>
-
-            <p id="description">{educationData.activities}</p>
+            <p id="description">Activities: {educationData.Activities}</p>
             
             <span className="circle"> </span>
         </div>

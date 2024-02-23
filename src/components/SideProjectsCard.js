@@ -7,8 +7,13 @@ const SideProjectCard = ({projectData}) => {
             <h1>{projectData.Name}</h1>
             <h2>{projectData.Description}</h2>
             <a href={projectData.GitHubLink}>
-                <button>GitHub</button>
+                <button>GitHub: Frontend</button>
             </a>
+            { projectData.GitHubLink2 ? (
+                <a href={projectData?.GitHubLink2}>
+                <button>GitHub: Backend</button>
+            </a>
+            ) : null}
         </div>
     );
 }

@@ -1,4 +1,22 @@
-#imageOfSelf {
+.container {
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.image {
+    flex-basis: 40%;
+    padding-top: 75px;
+}
+
+.text {
+    font-size: 20px;
+    font-family: fantasy;
+    padding-right: 75px;
+    padding-top: 100px;
+    inline-size: 500px;
 }

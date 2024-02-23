@@ -8,12 +8,7 @@ const socialsData = [
         "id": 2,
         "mediaType": "GitHub",
         "mediaLink": "https://github.com/sathvik784"
-    }
-    /*{
-        "id": 3,
-        "mediaType": "Email",
-        "mediaLink": "placeholder"
-    }*/
+    },
 ]
 
 export default socialsData;
