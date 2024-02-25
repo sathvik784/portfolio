@@ -6,7 +6,7 @@ function About() {
     return(
         <div className="container">
             <div className="text">
-                <p>Hi, I'm Sathvik Andhavarapu. I am a first year student at the University of Maryland, and I am studying Computer 
+                <p>Hi, I'm Sathvik Andhavarapu. I am an undergraduate student at the University of Maryland, and I am studying Computer 
                     Science and Economics. My passion and curiousity for programming has led me to begin learning about web and app 
                     development. This has been primarily through my involvement with the App Development Club, where I participated in the 
                     Bootcamp and learned languages and frameworks such as HTML, CSS, JavaScript, Python, React, and Django. Currently, 
