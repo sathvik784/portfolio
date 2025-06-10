@@ -4,9 +4,10 @@ import '../styles/EducationTimeline.css'
 const EducationCard = ({educationData}) => {
     return(
         <div className="educationCard">
-            <h1 id="title">{educationData.School}</h1>
-            <h2 id="gpa">GPA: {educationData.GPA}</h2>
-            <p id="description">Activities: {educationData.Activities}</p>
+            <h1 id="title">{educationData?.Activity_Name}</h1>
+            {educationData.GPA && <h2 id="gpa">GPA: {educationData?.GPA}</h2>}
+            {educationData.Activities && <p id="activities">Activities: {educationData?.Activities}</p>}
+						{educationData.Description && <p id="description">{educationData?.Description}</p>}
             
             <span className="circle"> </span>
         </div>

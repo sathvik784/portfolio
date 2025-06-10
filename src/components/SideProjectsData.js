@@ -1,24 +1,24 @@
 const projectData = [
     {
         "id": 1,
-        "Name": "Personal Portfolio",
-        "Description": "Portfolio made using HTML, CSS, and JavaScript. Framework used is React.",
-        "GitHubLink": "https://github.com/sathvik784/portfolio"
+        "Name": "Honeypot Project",
+        "Description": "Created a honeypot system in order to study how different types of customized SSH banners influence the duration an attacker stays connected and the types of commands executed within an SSH session. We used bash scripts to automate container deployment, confiugure NAT/firewall rules, and integrated Man-In-The-Middle to log attacker commands and track the duration of their stay.",
+        "GitHub": "https://github.com/HACS200-HoneyPot-Project"
     },
     {
         "id": 2,
-        "Name": "To Do List Website",
-        "Description": "This website provides a to do list for users. Frontend framework used is React, and backend framework used is Django.",
-        "GitHubLink": "https://github.com/sathvik784/ToDoList",
-        "GitHubLink2": "https://github.com/sathvik784/todolistbackend"
-    },
-    {
-        "id": 3,
         "Name": "Custom Fantasy Football Platform",
         "Description": "I am creating a custom fantasy football platform using React and Spring Boot. I am using a PostgreSQL database and JWT Authentication to handle users and entities.",
         "GitHubLink": "https://github.com/Fantasy-Football-project/fantasy-frontend",
         "GitHubLink2": "https://github.com/Fantasy-Football-project/fantasy-backend"
-    }
+    },
+		{
+			"id": 3,
+			"Name": "Playoff Pickems' Project",
+			"Description": "Created a web application using Flask, React, and PostgreSQL in order to allow for users to pick props and bets during the NFL playoffs, and compete against friends to see who gets the most corrected. Website was hosted on render.com, but the database is not currently running.",
+			"GitHubLink": "https://github.com/Playoff-PickEm-Project/playoff-pickem-frontend",
+			"GitHubLink2": "https://github.com/Playoff-PickEm-Project/playoff-pickem-backend"
+	}
 ]
 
 export default projectData;

@@ -13,11 +13,14 @@ function Navbar() {
                     <Link to='/about'>About</Link>
                 </li>
                 <li>
-                    <Link to='/education'>Education</Link>
+                    <Link to='/education'>Experience</Link>
                 </li>
                 <li>
                     <Link to='/sideprojects'>Side Projects</Link>
                 </li>
+								{/* <li>
+                    <Link to='/skills'>Skills</Link>
+                </li> */}
             </ul>
             
         </nav>

@@ -6,9 +6,12 @@ const SideProjectCard = ({projectData}) => {
         <div className="projectCards">
             <h1>{projectData.Name}</h1>
             <h2>{projectData.Description}</h2>
-            <a href={projectData.GitHubLink}>
+						{projectData.GitHub && <a href={projectData.GitHub}>
+                <button>GitHub</button>
+            </a>}
+            {projectData.GitHubLink && <a href={projectData.GitHubLink}>
                 <button>GitHub: Frontend</button>
-            </a>
+            </a>}
             { projectData.GitHubLink2 ? (
                 <a href={projectData?.GitHubLink2}>
                 <button>GitHub: Backend</button>
