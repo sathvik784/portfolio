@@ -6,16 +6,19 @@ import Typewriter from "./HomePageTypingAn";
 
 function HomePage() {
     return(
-        <div>
-            <Typewriter />
-            <div className="contactInfo">
-                <p>Email: sandhav1@terpmail.umd.edu</p>
-            </div>
+			<div>
+				<Typewriter />
+				<div className="landingPage">
+					<p className="landingPage__contactInfo">sandhav1@terpmail.umd.edu</p>
 
-            <div className="socialsContainer">
+					<div className="landingPage__socialsContainer">
+					<div className="socialsContainer">
                 <SocialsMapped socials={socialsData}/>
             </div>
-        </div>
+					</div>
+				</div>
+		</div>
+        
     );
 }
 

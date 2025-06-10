@@ -13,9 +13,9 @@ export default function Typewriter() {
 			cursor={true}
 			style={{
 				fontSize: '2.5rem',
-				color: '#000000',      // black text
-				textAlign: 'center',   // center text
-				margin: '40px 0 20px', // vertical spacing like before
+				color: '#000000',
+				textAlign: 'center',
+				margin: '40px 0 20px',
 			}}
 			repeat={Infinity}
 		/>

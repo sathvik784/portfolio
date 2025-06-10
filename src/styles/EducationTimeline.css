@@ -11,7 +11,7 @@
 }
 
 .educationContainer::after {
-    background-color: red;
+    background-color: black;
     content: '';
     position: absolute;
     left: calc(50% - 2px);
@@ -108,7 +108,7 @@
 
 .circle {
     background-color: white;
-    border: 5px solid red;
+    border: 5px solid black;
     border-radius: 50%;
     position: absolute;
     top: calc(50% - 10px);
