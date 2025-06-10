@@ -2,11 +2,12 @@ import React from "react";
 import SocialsMapped from "./HomePageSocialsMap";
 import socialsData from "./socialsData";
 import '../styles/Home.css'
+import Typewriter from "./HomePageTypingAn";
 
 function HomePage() {
     return(
         <div>
-            <h1 id="name">Sathvik Andhavarapu</h1>
+            <Typewriter />
             <div className="contactInfo">
                 <p>Email: sandhav1@terpmail.umd.edu</p>
             </div>
