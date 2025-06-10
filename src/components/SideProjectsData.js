@@ -9,15 +9,13 @@ const projectData = [
         "id": 2,
         "Name": "Custom Fantasy Football Platform",
         "Description": "I am creating a custom fantasy football platform using React and Spring Boot. I am using a PostgreSQL database and JWT Authentication to handle users and entities.",
-        "GitHubLink": "https://github.com/Fantasy-Football-project/fantasy-frontend",
-        "GitHubLink2": "https://github.com/Fantasy-Football-project/fantasy-backend"
+        "GitHub": "https://github.com/Fantasy-Football-project",
     },
 		{
 			"id": 3,
 			"Name": "Playoff Pickems' Project",
-			"Description": "Created a web application using Flask, React, and PostgreSQL in order to allow for users to pick props and bets during the NFL playoffs, and compete against friends to see who gets the most corrected. Website was hosted on render.com, but the database is not currently running.",
-			"GitHubLink": "https://github.com/Playoff-PickEm-Project/playoff-pickem-frontend",
-			"GitHubLink2": "https://github.com/Playoff-PickEm-Project/playoff-pickem-backend"
+			"Description": "Created a web application using Flask, React, and PostgreSQL in order to allow for users to pick props and bets during the NFL playoffs, and compete against friends to see who gets the most correct. Website was hosted on render.com, but the database is not currently running.",
+			"GitHub": "https://github.com/Playoff-PickEm-Project",
 	}
 ]
 
