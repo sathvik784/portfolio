@@ -33,6 +33,11 @@ const SideProjectCard = ({ projectData }) => {
 													<button>Backend</button>
 											</a>
 									)}
+									{projectData.PDFLink && (
+											<a href={projectData.PDFLink} download target="_blank" rel="noopener noreferrer">
+													<button>Findings</button>
+											</a>
+									)}
 							</div>
 					</div>
 				</motion.div>
