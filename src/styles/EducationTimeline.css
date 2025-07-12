@@ -7,15 +7,15 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 40px 0;
+    margin: 2% 0;
 }
 
 .educationContainer::after {
     background-color: black;
     content: '';
     position: absolute;
-    left: calc(50% - 2px);
-    width: 4px;
+    left: calc(50%);
+    width: 0.25%;
     height: 100%;
 }
 
@@ -23,27 +23,27 @@
     display: flex;
     justify-content: flex-end;
     position: relative;
-    padding-right: 30px;
-    margin: 10px 0;
+    padding-right: 2%;
+    margin: 1% 0;
     width: 50%;
 }
 
 .educationCard:nth-child(odd) {
     align-self: flex-end;
     justify-content: flex-start;
-		margin-right: calc(19.8%);
+		margin-right: calc(19.69%);
     /* margin-right: 300px; */
-    padding-left: 10px;
-    padding-right: 0px;
+    padding-left: 2%;
+    padding-right: 0%;
 }
 
 .educationCard:nth-child(even) {
     align-self: flex-start;
     justify-content: flex-start;
-    margin-left: calc(19.8%);
+    margin-left: calc(19.9%);
 		/* margin-left: 300px; */
-    padding-left: 10px;
-    padding-right: 0px;
+    padding-left: 2%;
+    padding-right: 0%;
 }
 
 .educationCard {
@@ -52,21 +52,21 @@
     font-family: SF Pro Text,Helvetica Neue,sans-serif;
     box-sizing: border-box;
     border: solid;
-    border-radius: 16px;
+    border-radius: 10%;
     height: min-content;
     position: relative;
-    width: 350px;
-    margin-bottom: 40px;
+    width: 23.25%;
+    margin-bottom: 2%;
     background-color: white;
 }
 
 #title {
-    font-size: 20px;
+    font-size: 120%;
     font: bold;
-    padding: 5px;
+    padding: 0.5%;
     text-transform: uppercase;
     text-align: right;
-    margin-right: 15px;
+    margin-right: 1%;
 }
 
 .educationCard:nth-child(odd) #title {
@@ -74,11 +74,11 @@
 }
 
 #time {
-    font-size: 17px;
+    font-size: 1.5%;
     font: bold;
-    padding: 5px;
+    padding: 1%;
     text-align: right;
-    margin-right: 15px;
+    margin-right: 1.5%;
 }
 
 .educationCard:nth-child(odd) #time {
@@ -86,11 +86,11 @@
 }
 
 #gpa {
-    font-size: 17px;
+    font-size: 100%;
     font: bold;
-    padding: 5px;
+    padding: 1%;
     text-align: right;
-    margin-right: 15px;
+    margin-right: 1%;
 }
 
 .educationCard:nth-child(odd) #gpa {
@@ -98,10 +98,10 @@
 }
 
 #description {
-    font-size: 16px;
+    font-size: 100%;
     font: normal;
     text-align: right;
-    margin-right: 15px;
+    margin-right: 1.5%;
 }
 
 .educationCard:nth-child(odd) #description {
@@ -113,13 +113,17 @@
     border: 5px solid black;
     border-radius: 50%;
     position: absolute;
-    top: calc(50% - 10px);
-    right: -122px;
-    width: 20px;
-    height: 20px;
+    top: calc(50%);
+		right: -35%;
+    width: 5.7%;
+		aspect-ratio: 1 / 1;
     z-index: 100;
 }
 
 .educationCard:nth-child(odd) .circle {
-    right: 439.5px;
+    right: 126%;
+}
+
+.educationCard:nth-child(even) .circle {
+    left: 126%;
 }
