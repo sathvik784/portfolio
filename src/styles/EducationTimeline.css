@@ -31,7 +31,8 @@
 .educationCard:nth-child(odd) {
     align-self: flex-end;
     justify-content: flex-start;
-    margin-right: 300px;
+		margin-right: calc(19.8%);
+    /* margin-right: 300px; */
     padding-left: 10px;
     padding-right: 0px;
 }
@@ -39,7 +40,8 @@
 .educationCard:nth-child(even) {
     align-self: flex-start;
     justify-content: flex-start;
-    margin-left: 300px;
+    margin-left: calc(19.8%);
+		/* margin-left: 300px; */
     padding-left: 10px;
     padding-right: 0px;
 }
