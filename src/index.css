@@ -10,6 +10,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(to bottom, #ffffff 0%, #f8f9fa 100%);
   min-height: 100vh;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 code {

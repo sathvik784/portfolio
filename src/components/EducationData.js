@@ -1,21 +1,21 @@
 const educationData = [
+	// {
+	// 	"id": 1,
+	// 	"Activity_Name": "Mount Hebron High School",
+	// 	"role": "Student",
+	// 	"timeframe": "2019-2023",
+	// 	"GPA": "4.84",
+	// 	"Activities": "President of Science Olympiad, Varsity Basketball, FBLA Nationals Participant",
+	// 	"skills": []
+	// },
 	{
-		"id": 1,
-		"Activity_Name": "Mount Hebron High School",
-		"role": "Student",
-		"timeframe": "2019-2023",
-		"GPA": "4.84",
-		"Activities": "President of Science Olympiad, Varsity Basketball, FBLA Nationals Participant",
+		"id": 2,
+		"Activity_Name": "University of Maryland",
+		"role": "Computer Science/Economics Student",
+		"timeframe": "2023-2027",
+		"GPA": "4.00",
+		"Activities": "Banneker/Key Scholar, App Development Club (ADC), ACES (Advanced Cybersecurity Experience for Students) Honors College",
 		"skills": []
-	},
-	{
-			"id": 2,
-			"Activity_Name": "University of Maryland",
-	"role": "Computer Science/Economics Student",
-	"timeframe": "2023-2027",
-			"GPA": "4.00",
-			"Activities": "Banneker/Key Scholar, App Development Club (ADC), ACES (Advanced Cybersecurity Experience for Students) Honors College",
-	"skills": []
 	},
 	{
 		"id": 3,

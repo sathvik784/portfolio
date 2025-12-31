@@ -57,7 +57,7 @@ const SideProjectsMap = ({projects}) => {
                 {/* Left arrow button */}
                 <button
                     onClick={() => paginate(-1)}
-                    className="absolute left-0 md:left-4 z-20 w-12 h-12 bg-white hover:bg-gray-100 rounded-full shadow-md flex items-center justify-center transition-all duration-200 hover:scale-110"
+                    className="absolute -left-6 md:left-4 z-20 w-12 h-12 bg-white hover:bg-gray-100 rounded-full shadow-md flex items-center justify-center transition-all duration-200 hover:scale-110"
                     aria-label="Previous project"
                 >
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -133,7 +133,7 @@ const SideProjectsMap = ({projects}) => {
                 {/* Right arrow button */}
                 <button
                     onClick={() => paginate(1)}
-                    className="absolute right-0 md:right-4 z-20 w-12 h-12 bg-white hover:bg-gray-100 rounded-full shadow-md flex items-center justify-center transition-all duration-200 hover:scale-110"
+                    className="absolute -right-6 md:right-4 z-20 w-12 h-12 bg-white hover:bg-gray-100 rounded-full shadow-md flex items-center justify-center transition-all duration-200 hover:scale-110"
                     aria-label="Next project"
                 >
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
