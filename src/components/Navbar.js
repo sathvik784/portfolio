@@ -46,13 +46,13 @@ function Navbar() {
 
     return(
         <nav className="bg-white/90 backdrop-blur-sm border-b border-gray-100 fixed top-0 left-0 right-0 z-50">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <ul className="flex justify-center gap-8 py-5">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-x-auto scrollbar-hide">
+                <ul className="flex justify-center md:justify-center gap-8 py-5 min-w-max md:min-w-0">
                     {navItems.map((item) => (
-                        <li key={item.id}>
+                        <li key={item.id} className="flex-shrink-0">
                             <button
                                 onClick={() => scrollToSection(item.id)}
-                                className={`font-medium transition-all duration-300 relative group ${
+                                className={`font-medium transition-all duration-300 relative group whitespace-nowrap ${
                                     activeSection === item.id
                                         ? 'text-black'
                                         : 'text-gray-500 hover:text-black'
