@@ -1,12 +1,11 @@
 import React from "react";
 import Socials from "./HomePageSocials";
-import '../styles/Home.css'
 
 const SocialsMapped = ({socials}) => {
     return(
-        <div>
+        <div className="flex gap-3 flex-wrap justify-center">
             {socials.map(social => (
-                <Socials id={social.id} socialsData={social} />
+                <Socials key={social.id} id={social.id} socialsData={social} />
                     )
                 )}
         </div>

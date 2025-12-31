@@ -11,12 +11,7 @@ export default function Typewriter() {
 			speed={50}
 			wrapper="h1"
 			cursor={true}
-			style={{
-				fontSize: '2.5rem',
-				color: '#000000',
-				textAlign: 'center',
-				margin: '40px 0 20px',
-			}}
+			className="text-5xl md:text-6xl font-display font-bold text-gray-900 mb-4"
 			repeat={Infinity}
 		/>
   );

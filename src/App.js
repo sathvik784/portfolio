@@ -1,22 +1,23 @@
 import './App.css';
-import HomePage from './components/HomePage';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Hero from './components/Hero';
 import About from './components/About';
 import Education from './components/Education';
 import SideProjects from './components/SideProjects';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
 
 function App() {
   return (
-      <Router>
-          <Navbar />
-          <Routes>
-            <Route path='/portfolio' element={<HomePage />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/education' element={<Education />} />
-            <Route path='/sideprojects' element={<SideProjects />} />
-          </Routes>
-      </Router>
+    <div className="bg-gray-50">
+      <Navbar />
+      <Hero />
+      <About />
+      <Education />
+      <SideProjects />
+      <Skills />
+      <Contact />
+    </div>
   );
 }
 

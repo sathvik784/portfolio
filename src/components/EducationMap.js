@@ -1,14 +1,12 @@
 import React from "react";
 import EducationCard from "./EducationCard";
-import '../styles/EducationTimeline.css'
 
 const EducationMapped = ({educations}) => {
     return(
-        <div className="educationContainer">
-            {educations.map(education => (
-                <EducationCard id={education.id} educationData={education} />
-                    )
-                )}
+        <div className="relative">
+            {educations.map((education, index) => (
+                <EducationCard key={education.id} id={education.id} educationData={education} index={index} />
+            ))}
         </div>
     );
 }
