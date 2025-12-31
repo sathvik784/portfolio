@@ -8,15 +8,15 @@ const educationData = [
 		"Activities": "President of Science Olympiad, Varsity Basketball, FBLA Nationals Participant",
 		"skills": []
 	},
-    {
-        "id": 2,
-        "Activity_Name": "University of Maryland",
-		"role": "Computer Science/Economics Student",
-		"timeframe": "2023-2027",
-        "GPA": "4.00",
-        "Activities": "Banneker/Key Scholar, App Development Club (ADC), ACES (Advanced Cybersecurity Experience for Students) Honors College",
-		"skills": []
-    },
+	{
+			"id": 2,
+			"Activity_Name": "University of Maryland",
+	"role": "Computer Science/Economics Student",
+	"timeframe": "2023-2027",
+			"GPA": "4.00",
+			"Activities": "Banneker/Key Scholar, App Development Club (ADC), ACES (Advanced Cybersecurity Experience for Students) Honors College",
+	"skills": []
+	},
 	{
 		"id": 3,
 		"Activity_Name": "Amazon Project Kuiper (ADC)",
@@ -43,7 +43,7 @@ const educationData = [
 	},
 	{
 		"id": 6,
-		"Activity_Name": "Children's National Hospital (CNH)",
+		"Activity_Name": "Children's National Hospital",
 		"role": "Tech Lead",
 		"timeframe": "Fall 2025",
 		"Description": "",
