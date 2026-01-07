@@ -19,6 +19,7 @@ const projectData = [
 		"Name": "Playoff Pickems' Project",
 		"Description": "A web application for NFL playoff predictions where users compete against friends by picking props and betting outcomes.",
 		"GitHub": "https://github.com/Playoff-PickEm-Project",
+		"LiveDemo": "https://playoff-pickem-frontend-q31n.onrender.com/",
 		"techStack": ["React", "JavaScript", "Flask", "Python", "PostgreSQL"]
 	},
 	{
