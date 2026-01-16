@@ -97,12 +97,22 @@ const EducationCard = ({educationData, index}) => {
                 </div>
             </div>
 
-            {/* Timeline dot */}
+            {/* Timeline logo/dot */}
             <div className="w-2/12 flex justify-center items-center">
                 <div className="relative">
-                    <div className="w-3 h-3 sm:w-4 sm:h-4 bg-black rounded-full border-2 sm:border-4 border-white shadow-sm z-10 relative"></div>
+                    {educationData?.logo ? (
+                        <div className="w-16 h-16 sm:w-20 sm:h-20 bg-white rounded-full border-4 border-gray-200 shadow-lg z-10 relative flex items-center justify-center p-3">
+                            <img
+                                src={educationData.logo}
+                                alt={`${educationData.Activity_Name} logo`}
+                                className="w-full h-full object-contain"
+                            />
+                        </div>
+                    ) : (
+                        <div className="w-3 h-3 sm:w-4 sm:h-4 bg-black rounded-full border-2 sm:border-4 border-white shadow-sm z-10 relative"></div>
+                    )}
                     {/* Vertical line */}
-                    <div className="absolute top-3 sm:top-4 left-1/2 transform -translate-x-1/2 w-px h-16 sm:h-24 bg-gray-300"></div>
+                    <div className={`absolute ${educationData?.logo ? 'top-16 sm:top-20' : 'top-3 sm:top-4'} left-1/2 transform -translate-x-1/2 w-px h-16 sm:h-24 bg-gray-300`}></div>
                 </div>
             </div>
 

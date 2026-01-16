@@ -15,7 +15,8 @@ const educationData = [
 		"timeframe": "2023-2027",
 		"GPA": "4.00",
 		"Activities": "Banneker/Key Scholar, App Development Club (ADC), ACES (Advanced Cybersecurity Experience for Students) Honors College",
-		"skills": []
+		"skills": [],
+		"logo": `${process.env.PUBLIC_URL}/UMDLogo.png`
 	},
 	{
 		"id": 3,
@@ -23,7 +24,8 @@ const educationData = [
 		"role": "Frontend Software Engineer",
 		"timeframe": "Spring 2024",
 		"Description": "Developed a distributed ledger-based game theory application to analyze interactions between spacecraft operators and independent space situational awareness sensor networks during high-risk conjunction events. Displayed these risk assessments on a user friendly platform, and used game theory to provide optimized recommendations to operators.",
-		"skills": ["Next.js", "FastAPI", "TypeScript"]
+		"skills": ["Next.js", "FastAPI", "TypeScript"],
+		"logo": `${process.env.PUBLIC_URL}/KuiperLogo.png`
 	},
 	{
 		"id": 4,
@@ -31,7 +33,8 @@ const educationData = [
 		"role": "Full-Stack Software Engineer",
 		"timeframe": "Fall 2024 - Spring 2025",
 		"Description": "Built a user-friendly data visualization tool using U.S. News internal API and React.js to illustrate college rankings data across 2000+ schools. Developed a Flask backend to query and analyze different university metrics, and implemented Jupyter Notebooks to flag data anomalies and identify outliers.",
-		"skills": ["React", "TypeScript", "Flask", "Python", "Jupyter"]
+		"skills": ["React", "TypeScript", "Flask", "Python", "Jupyter"],
+		"logo": `${process.env.PUBLIC_URL}/USNewsLogo.png`
 	},
 	{
 		"id": 5,
@@ -39,7 +42,8 @@ const educationData = [
 		"role": "Software Engineering Intern",
 		"timeframe": "Summer 2025",
 		"Description": "Built a mobile-friendly web application to enable Field Logistics Managers to update CarMax's internal logistics database in real-time from their mobile devices. Implemented CI/CD pipelines using Azure DevOps and integrated an AI-powered chatbot to streamline request processing.",
-		"skills": [".NET", "React", "TypeScript", "C#", "Azure", "Azure OpenAI", "YAML"]
+		"skills": [".NET", "React", "TypeScript", "C#", "Azure", "Azure OpenAI", "YAML"],
+		"logo": `${process.env.PUBLIC_URL}/CarMaxLogo.png`
 	},
 	{
 		"id": 6,
@@ -47,7 +51,8 @@ const educationData = [
 		"role": "Tech Lead",
 		"timeframe": "Fall 2025",
 		"Description": "",
-		"skills": []
+		"skills": [],
+		"logo": `${process.env.PUBLIC_URL}/CNHLogo.png`
 	},
 	{
 		"id": 7,
@@ -55,7 +60,8 @@ const educationData = [
 		"role": "TIP Intern",
 		"timeframe": "Summer 2026",
 		"Description": "",
-		"skills": []
+		"skills": [],
+		"logo": `${process.env.PUBLIC_URL}/CapitalOneLogo.png`
 	}
 ]
 
