@@ -17,19 +17,19 @@ const projectData = [
 	},
 	{
 		"id": 3,
+		"Name": "Custom Fantasy Football Platform",
+		"Description": "A custom fantasy football platform with user authentication, real-time league management, and player statistics tracking.",
+		"GitHub": "https://github.com/Fantasy-Football-project",
+		"techStack": ["React", "JavaScript", "Spring Boot", "Java", "PostgreSQL"]
+  },
+	{
+		"id": 4,
 		"Name": "Fantasy Football Production Analysis",
 		"Description": "Built OLS regression models to predict fantasy football performance across NFL offensive skill positions using volume, efficiency, experience, and draft pick metrics. Analyzed 10 years of player data to identify key statistical predictors.",
 		"CodeLink": "/Econ422_Final_Paper_Code.ipynb",
 		"PDFLink": "https://docs.google.com/document/d/1FjN6f8IDhYCL_rGUuNhHyAsHyCUm01VrhV-U02Yfz0Y/export?format=pdf",
 		"techStack": ["Python", "Pandas", "NumPy", "statsmodels", "scikit-learn", "Matplotlib"]
 	},
-	{
-		"id": 4,
-		"Name": "Custom Fantasy Football Platform",
-		"Description": "A custom fantasy football platform with user authentication, real-time league management, and player statistics tracking.",
-		"GitHub": "https://github.com/Fantasy-Football-project",
-		"techStack": ["React", "JavaScript", "Spring Boot", "Java", "PostgreSQL"]
-  },
 ]
 
 export default projectData;
