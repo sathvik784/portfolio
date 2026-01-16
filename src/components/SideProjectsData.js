@@ -15,13 +15,13 @@ const projectData = [
 		"LiveDemo": "https://playoff-pickem-frontend-q31n.onrender.com/",
 		"techStack": ["React", "JavaScript", "Flask", "Python", "PostgreSQL"]
 	},
-	{
-		"id": 3,
-		"Name": "Custom Fantasy Football Platform",
-		"Description": "A custom fantasy football platform with user authentication, real-time league management, and player statistics tracking.",
-		"GitHub": "https://github.com/Fantasy-Football-project",
-		"techStack": ["React", "JavaScript", "Spring Boot", "Java", "PostgreSQL"]
-  },
+	// {
+	// 	"id": 3,
+	// 	"Name": "Custom Fantasy Football Platform",
+	// 	"Description": "A custom fantasy football platform with user authentication, real-time league management, and player statistics tracking.",
+	// 	"GitHub": "https://github.com/Fantasy-Football-project",
+	// 	"techStack": ["React", "JavaScript", "Spring Boot", "Java", "PostgreSQL"]
+  // },
 	{
 		"id": 4,
 		"Name": "Fantasy Football Production Analysis",
