@@ -5,7 +5,7 @@ function Skills() {
     const skillsData = {
         "Languages": ["Java", "Python", "JavaScript", "TypeScript", "C#", "OCaml", "C", "Rust", "Bash", "MATLAB", "HTML", "CSS"],
         "Frameworks & Libraries": ["React.js", "Flask", "Spring Boot", "Django", ".NET", "FastAPI", "Next.js", "BeautifulSoup", "Pandas"],
-        "Tools & Platforms": ["Azure", "Azure OpenAI Service", "Git", "GitHub", "GitHub Copilot", "PostgreSQL", "Unix/Linux"]
+        "Tools & Platforms": ["Azure", "Azure OpenAI Service", "AWS", "Docker", "Kubeflow Pipelines", "Weights & Biases (W&B)", "Git", "GitHub", "GitHub Copilot", "PostgreSQL", "Unix/Linux"]
     };
 
     return (

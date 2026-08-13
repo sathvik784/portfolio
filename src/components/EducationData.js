@@ -50,8 +50,8 @@ const educationData = [
 		"Activity_Name": "Children's National Hospital",
 		"role": "Tech Lead",
 		"timeframe": "Fall 2025",
-		"Description": "",
-		"skills": [],
+		"Description": "As the Technical Lead for a 17-member team, I built a HIPAA-compliant platform for clinicians to upload and visualize MRI brain scans (DICOM/NIfTI), running them through a tumor segmentation model, and overlaying results on OHIF with 3D segmentation and manual refinement tools.",
+		"skills": ["Flask", "React", "Docker", "OHIF", "Python", "TypeScript"],
 		"logo": `${process.env.PUBLIC_URL}/CNHLogo.png`
 	},
 	{
@@ -59,8 +59,8 @@ const educationData = [
 		"Activity_Name": "Incoming TIP Intern @ Capital One",
 		"role": "TIP Intern",
 		"timeframe": "Summer 2026",
-		"Description": "",
-		"skills": [],
+		"Description": "Built an automated, end-to-end Kubeflow ML pipeline for customer risk and behavioral models, replacing manual notebook workflows with modular, monitored components and full artifact lineage via W&B and AWS.",
+		"skills": ["Kubeflow Pipelines", "Weights & Biases (W&B)", "AWS MLZone S3", "Python"],
 		"logo": `${process.env.PUBLIC_URL}/CapitalOneLogo.png`
 	}
 ]

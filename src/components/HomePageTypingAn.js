@@ -5,8 +5,8 @@ export default function Typewriter() {
     <TypeAnimation
 			sequence={[
 				"Hi, I'm Sathvik Andhavarapu", 2000,
-				"Full‑Stack Developer", 2000,
-				"Basketball Enthusiast", 2000,
+				"Software Engineer", 2000,
+				// "Basketball Enthusiast", 2000,
 			]}
 			speed={50}
 			wrapper="h1"

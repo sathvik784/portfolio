@@ -24,10 +24,9 @@ function About() {
                             Hi, I'm Sathvik Andhavarapu. I am an undergraduate student at the University of Maryland, and I am studying Computer
                             Science and Economics. My passion and curiousity for programming has led me to begin learning about web and app
                             development. This has been primarily through my involvement with the App Development Club, where I participated in the
-                            Bootcamp and then worked with multiple Fortune 500 companies. You can see more about
-                            my App Development Club experience in the 'Experience' section, and my skills in the 'Skills' section. Through these projects,
-                            and the work I have done in my internship during the summer of 2025, I have found a passion in backend coding, and building products that
-                            I know will be of use to others. In my free time, I love to play/watch basketball, travel, and hike.
+                            Bootcamp and then worked with multiple Fortune 500 companies, as well as internships with CarMax and Capital One. You can see more about
+                            my experiences in the 'Experience' section, and my skills in the 'Skills' section. Through these projects, I have found a passion in backend coding, 
+                            machine learning, and building products that I know will be of use to others. In my free time, I love to play/watch basketball and football, watch movies, travel, and hike.
                         </p>
                     </div>
                 </div>
